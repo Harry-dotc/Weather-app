@@ -65,7 +65,6 @@ details,
 embed,
 figure,
 figcaption,
-footer,
 header,
 hgroup,
 menu,
@@ -90,7 +89,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 menu,
@@ -340,23 +338,6 @@ div#txt {
   border-bottom: none;
 }
 
-.footer {
-  padding-bottom: 20px;
-}
-
-.copyright p {
-  color: #fff;
-}
-
-.copyright p a {
-  color: #fff;
-}
-/*--w3layouts--*/
-/*--agileits--*/
-.copyright p a:hover {
-  color: #ffeb3b;
-}
-
 /*-- //Index-Page-Styling --*/
 
 /*-- Responsive Code --*/
@@ -479,13 +460,6 @@ div#txt {
     width: 100%;
     padding-bottom: 30px;
   }
-  .copyright {
-    padding-bottom: 20px;
-  }
-  .copyright p {
-    line-height: 30px;
-    font-size: 14px;
-  }
 }
 
 @media screen and (max-width: 533px) {
@@ -542,9 +516,6 @@ div#txt {
     text-align: center;
     width: 100%;
   }
-  .copyright {
-    padding: 20px;
-  }
   .temperature p {
     font-size: 60px;
     padding-bottom: 15px;
@@ -554,10 +525,6 @@ div#txt {
   }
   .today-weather h3 {
     font-size: 30px;
-  }
-  .copyright p {
-    line-height: 25px;
-    font-size: 13px;
   }
   .container {
     height: 60vh;
@@ -657,13 +624,6 @@ div#txt {
   left: 24%;
   top: 2%;
   font-size: 25px;
-}
-.footer-info {
-  color: white;
-}
-.footer-info a {
-  color: floralwhite;
-  font-weight: bold;
 }
 .hh_button {
   display: inline-block;
